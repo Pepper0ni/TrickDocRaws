@@ -1,4 +1,4 @@
 for FILE in *.png ; do
-    OUTNAME=`basename "$FILE" .png`.jpg
-    magick $FILE -quality 89 $OUTNAME
+    OUTNAME=`basename "$FILE" .png`.webp
+    magick $FILE -quality 75 $OUTNAME
 done
